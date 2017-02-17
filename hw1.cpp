@@ -205,7 +205,7 @@ void check_mouse(XEvent *e, Game *game)
 {
     static int savex = 0;
     static int savey = 0;
-    static int n = 0;
+    //static int n = 0;
 
     if (e->type == ButtonRelease) {
 	return;
